@@ -32,7 +32,7 @@ return (
         <nav>
             <CustomLink href='/' title='Home' className='mr-4 '/>
             <CustomLink href='/about' title='About' className='mx-4 '/>
-            <CustomLink href='/skills' title='Skills' className='mc-4 '/>
+            <CustomLink href='/skills' title='Skills' className='mx-4 '/>
             <CustomLink href='/projects' title='Projects' className='ml-4 '/>
         </nav>
 
