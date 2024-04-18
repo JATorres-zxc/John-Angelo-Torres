@@ -24,7 +24,7 @@ export default function Home() {
                     </div>
                     <div className='w-1/2 flex flex-col items-center self-center'>
                         
-                        <AnimatedTextItem text='Turning Vision Into Reality With Code And Design.'/>
+                        <AnimatedTextItem text='Turning Vision Into Reality With Code And Design.' className='!text-left !text-6xl'/>
                         <p className='my-4 text-base font-medium'>
                             As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
 Explore my latest projects, showcasing my expertise in web development.
@@ -47,7 +47,7 @@ Explore my latest projects, showcasing my expertise in web development.
                 </div>
             </LayoutItem>
 
-            <HireMeItem />
+            \
         </main>
         </>
     )
