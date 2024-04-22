@@ -8,6 +8,7 @@ content: [
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
 ],
+darkMode: 'selector',
 theme: {
     extend: {
         fontFamily: {

@@ -48,8 +48,8 @@ return (
                 <AnimatedTextItem text='Passion Fuels Purpose!' className='mb-16'/>
 
                 <div className='grid w-full grid-cols-8 gap-16 '>
-                    <div className='col-span-3 flex flex-col items-start justify-start'>
-                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>
+                    <div className='col-span-3 flex flex-col items-start justify-start dark:text-light'>
+                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>
                             About Me
                         </h2>
                         

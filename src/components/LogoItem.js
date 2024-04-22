@@ -14,7 +14,7 @@ const LogoItem = () => {
                 scale:1.15,
             }}
             whileTap={{ scale: 1 }}
-            className='w-[4.2rem] h-[4.2rem] bg-dark text-light flex items-center justify-center rounded-full text-xl font-bold'>
+            className='w-[4.2rem] h-[4.2rem] bg-dark text-light flex items-center justify-center rounded-full text-xl font-bold border-2 border-solid border-transparent dark:border-light'>
             GELO
         </MotionLink>
         </div>
