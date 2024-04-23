@@ -7,8 +7,8 @@ import {motion} from 'framer-motion'
 
 const Skill = ({name, x, y}) =>{
     return(
-        <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
-        py-6 px-6 shadow-dark h-10 my-[345px] absolute
+        <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light border
+        py-6 px-6 shadow-dark h-10 my-[345px] absolute dark:border-solid dark:bg-light dark:text-dark dark:border-2 dark:border-black
         '
         whileHover={{scale:1.2}}
         initial={{x:0,y:0}}
@@ -36,9 +36,9 @@ const skills = () => {
                     </h2> */}
                     <AnimatedTextItem text='Languages and Tools' className='mb-16'/>
 
-                    <div className='w-full h-screen relative flex items justify-center rounded-full bg-circularLight'>
+                    <div className='w-full h-screen relative flex items justify-center rounded-full bg-circularLight dark:bg-circularDark'>
                         <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
-                        py-6 px-6 shadow-dark h-20 w-35 my-[335px] absolute
+                        py-6 px-6 shadow-dark h-20 w-35 my-[335px] absolute dark:bg-light dark:text-dark
                         '
                         whileHover={{scale:1.2}}
                         >

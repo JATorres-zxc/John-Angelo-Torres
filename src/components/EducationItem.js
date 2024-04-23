@@ -14,15 +14,15 @@ const Details = ({ course, school, time, desc }) => {
             whileInView={{y:0}}
             transition={{duration:0.5, type:'spring'}}
             >
-                <h3 className='capitalize font-bold text-2xl '>
+                <h3 className='capitalize font-bold text-2xl dark:text-light'>
                     {course}
                 </h3>
 
-                <span className='capitalize font-medium text-dark/75'>
+                <span className='capitalize font-medium text-dark/75 dark:text-gray-400'>
                     {time} | {school}
                 </span>
 
-                <p className='font-medium w-full'>
+                <p className='font-medium w-full dark:text-light'>
                     {desc}
                 </p>
             </motion.div>
@@ -43,13 +43,13 @@ const EducationItem = () => {
 
     return (
         <div className='my-52'>
-            <h2 className='font-bold text-8xl mb-32 w-full text-center'>
+            <h2 className='font-bold text-8xl mb-32 w-full text-center dark:text-light'>
                 Education
             </h2>
 
             <div className='w-[75%] mx-auto relative' ref={ref}>
 
-                <motion.div className='absolute left-9 top-0 w-[4px] bg-dark h-full origin-top' 
+                <motion.div className='absolute left-9 top-0 w-[4px] bg-dark h-full origin-top dark:bg-primaryDark dark:shadow-3xl' 
                 style={{scaleY:scrollYProgress, height:'115%'}}
                 />
 
