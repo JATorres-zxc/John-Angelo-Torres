@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 const HireMeItem = () => {
     return (
-        <div className='fixed left-4 bottom-4 flex items-center justify-center overflow-hidden'>
+        // md:right-8 md:left-auto md:top-0 md:bottom-0 sa first div dapat to
+        <div className='fixed left-4 bottom-4 flex items-center justify-center overflow-hidden md:hidden'>
             <div className='w-48 h-auto items-center justify-center relative'>
                 <img src="/images/hehe-removebg-preview.png" className="animate-spin-slow" alt="Light Theme Image" />
 
