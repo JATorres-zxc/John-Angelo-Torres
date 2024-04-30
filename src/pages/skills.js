@@ -3,6 +3,7 @@ import LayoutItem from '@/components/LayoutItem'
 import Head from 'next/head'
 import React from 'react'
 import {motion} from 'framer-motion'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 const Skill = ({name, x, y}) =>{
@@ -29,6 +30,8 @@ const skills = () => {
                 <meta name='description' content='just a description' />
             </Head>
 
+            <TransitionEffect />
+
             <main className='flex w-full flex-col items-center justify-center'>
                 <LayoutItem>
                     {/* <h2 className='font-bold text-8xl w-full text-center'>
@@ -39,6 +42,9 @@ const skills = () => {
                     <div className='w-full h-screen relative flex items justify-center rounded-full bg-circularLight dark:bg-circularDark'>
                         <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
                         py-6 px-6 shadow-dark h-20 w-35 my-[335px] absolute dark:bg-light dark:text-dark
+                        lg:bg-circularLightLg lg:dark:bg-circularDarkLg
+                        
+                        
                         '
                         whileHover={{scale:1.2}}
                         >

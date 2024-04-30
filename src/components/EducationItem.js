@@ -18,7 +18,7 @@ const Details = ({ course, school, time, desc }) => {
                     {course}
                 </h3>
 
-                <span className='capitalize font-medium text-dark/75 dark:text-gray-400'>
+                <span className='capitalize font-semibold text-dark/60 dark:text-gray-400'>
                     {time} | {school}
                 </span>
 
@@ -43,7 +43,7 @@ const EducationItem = () => {
 
     return (
         <div className='my-52'>
-            <h2 className='font-bold text-8xl mb-32 w-full text-center dark:text-light'>
+            <h2 className='font-bold text-8xl mb-32 w-full text-center dark:text-light lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'>
                 Education
             </h2>
 
@@ -55,7 +55,7 @@ const EducationItem = () => {
 
                 
 
-                <ul className='w-full flex flex-col items-start justify-between ml-4'> 
+                <ul className='w-full flex flex-col items-start justify-between ml-4 text-justify'> 
                     <Details 
                         course='Bachelor Of Science In Computer Science'
                         time='2022 - CURRENT'
