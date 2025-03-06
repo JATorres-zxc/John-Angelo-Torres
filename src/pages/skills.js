@@ -57,7 +57,7 @@ const skills = () => {
 
                         <Skill name='JavaScript' x='20vw' y='6vw' />
 
-                        <Skill name='ReactJs' x='0vw' y='12vw' />
+                        <Skill name='React' x='0vw' y='12vw' />
 
                         <Skill name='NextJs' x='-20vw' y='-15vw' />
 

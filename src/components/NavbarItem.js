@@ -83,9 +83,8 @@ const NavbarItem = () => {
                 </nav>
 
                 <nav className='flex items-center justify-center flex-wrap'>
-                    <motion.a href='https://twitter.com' target={'_blank'} className='w-6 mr-3' whileHover={{y:-2}} whileTap={{scale:0.9}}><TwitterIcon /></motion.a>
-                    <motion.a href='https://Github.com' target={'_blank'} className='w-6 mx-3' whileHover={{y:-2}} whileTap={{scale:0.9}}><GithubIcon /></motion.a>
-                    <motion.a href='https://LinkedIn.com' target={'_blank'} className='w-6 ml-3' whileHover={{y:-2}} whileTap={{scale:0.9}}><LinkedInIcon/></motion.a>
+                    <motion.a href='https://github.com/JATorres-zxc' target={'_blank'} className='w-6 mx-3' whileHover={{y:-2}} whileTap={{scale:0.9}}><GithubIcon /></motion.a>
+                    <motion.a href='https://www.linkedin.com/in/john-angelo-torres-75b561349/' target={'_blank'} className='w-6 ml-3' whileHover={{y:-2}} whileTap={{scale:0.9}}><LinkedInIcon/></motion.a>
 
                     <button
                     onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}

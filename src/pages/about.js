@@ -3,7 +3,7 @@ import LayoutItem from '@/components/LayoutItem'
 import Head from 'next/head'
 import React, { useEffect, useRef } from 'react'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/developer-pic-2.jpg'
+import profilePic from '../../public/images/profile/gelo - Copy.jpg'
 import { motion, useInView, useMotionValue, useSpring } from 'framer-motion'
 import EducationItem from '@/components/EducationItem'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -57,17 +57,11 @@ return (
                         </h2>
 
                         
-                        <p className='font-medium'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        </p>
+                        <p className='font-medium mb-2'>
+                            I'm a third-year Computer Science student at University of the Philippines - Cebu, eager to explore the world of web development. Excited to apply what I've learned in class to real projects, I'm keen to contribute to innovative solutions and learn from experienced professionals. I'm driven by a strong desire to grow and make a meaningful impact in the dynamic field of web development.                        </p>
 
-                        <p className='font-medium my-4'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        </p>
-
-                        <p className='font-medium'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        </p>
+                        <p className='font-medium mt-2'>
+                        Here I am, eagerly seeking an internship opportunity to delve deeper into the world of development alongside seasoned professionals. My journey into the realm of programming may have started later than some, but my enthusiasm and dedication to learning are boundless. I'm excited at the prospect of immersing myself in the dynamic environment of web development and absorbing insights from experienced individuals. Any opportunity to expand my knowledge and skills in this field is one I eagerly embrace.                        </p>
 
                     </div>
 
