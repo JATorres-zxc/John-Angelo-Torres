@@ -1,5 +1,4 @@
 import '@/styles/globals.css'
-import { Main } from 'next/document';
 import {Montserrat} from 'next/font/google';
 import Head from 'next/head';
 import NavbarItem from '../components/NavbarItem.js'
