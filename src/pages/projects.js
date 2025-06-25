@@ -8,6 +8,9 @@ import React from 'react'
 import project1 from '../../public/images/projects/chatprj.png'
 import {motion} from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
+import GeloDevelops from '../../public/images/projects/GeloDevelops.png'
+import SynapseAI from '../../public/images/projects/chatapp1.png'
+import DevDiaries from '../../public/images/projects/devdiaries.png'
 
 
 const FramerImage = motion(Image)
@@ -120,38 +123,38 @@ return (
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12 '>
                             <FeaturedProject 
-                            title='Chatprj'
+                            title='Freelance Website'
                             type='Featured Project'
-                            summary='Deployed. Created when I tried to learn MERN stack and WebSockets. Equipped with fully functioning features of commong chat app.'
-                            link='https://mern-socket-io.onrender.com'
-                            github='https://github.com/JATorres-zxc/MERN-Socket.io'
-                            img={project1}
+                            summary='My personal freelance website where potential clients can view my past projects and get in touch to hire me for custom website development. Showcases a range of work including full-stack applications and responsive designs.'
+                            link='https://gelo-develops.vercel.app/'
+                            github='https://github.com/JATorres-zxc/GeloDevelops'
+                            img={GeloDevelops}
                             />
                         </div>
 
                         <div className='col-span-6'>
                             <Project 
-                            title='Chatprj'
-                            type='Basic Project'
-                            summary='Deployed. Created when I tried to learn MERN stack and WebSockets. Equipped with fully functioning features of commong chat app.'
-                            link='https://mern-socket-io.onrender.com'
-                            github='https://github.com/JATorres-zxc/MERN-Socket.io'
-                            img={project1}
+                            title='SynapseAI'
+                            type='MERN Project'
+                            summary='A full-featured real-time chat application built with the MERN stack and WebSockets. Includes robust JWT-based auth, user management, and core messaging features such as one-on-one or group chats, message history etc. Also includes a WIP AI chatbot integration for smart replies and assistance.'
+                            link='https://synapse-ai-lilac.vercel.app/'
+                            github='https://github.com/JATorres-zxc/SynapseAI'
+                            img={SynapseAI}
                             />
                         </div>
 
                         <div className='col-span-6'>
                             <Project 
-                            title='Chatprj'
-                            type='Basic Project'
-                            summary='Deployed. Created when I tried to learn MERN stack and WebSockets. Equipped with fully functioning features of commong chat app.'
-                            link='https://mern-socket-io.onrender.com'
-                            github='https://github.com/JATorres-zxc/MERN-Socket.io'
-                            img={project1}
+                            title='DevDiaries'
+                            type='To be deployed soon'
+                            summary='A full-featured MERN stack application for developers to share their coding journey, ask questions, and connect with a community of like-minded individuals. Equipped with fully functioning features of a blog app.'
+                            link=''
+                            github=''
+                            img={DevDiaries}
                             />
                         </div>
 
-                        <div className='col-span-12 '>
+                        {/* <div className='col-span-12 '>
                             <FeaturedProject 
                             title='Chatprj'
                             type='Featured Project'
@@ -182,7 +185,7 @@ return (
                             github='https://github.com/JATorres-zxc/MERN-Socket.io'
                             img={project1}
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </LayoutItem>
             </main>
