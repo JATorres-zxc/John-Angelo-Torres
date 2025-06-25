@@ -58,7 +58,7 @@ const ProjectModal = ({ isOpen, onClose, projectLink, projectTitle }) => {
         </button>
         <h3 className="text-xl font-bold mb-2 text-dark dark:text-light text-center">Notice: Possible Cold Start</h3>
         <p className="mb-4 text-dark dark:text-light text-center">
-          This project is hosted on a free tier (Render/Vercel). It may take a while to load due to cold start if it hasn't been visited recently.
+          This project is hosted on a free tier (Render/Vercel). It may take a while to load due to cold start if it has not been visited recently.
         </p>
         <div className="mb-4">
           <div className="w-full h-3 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
