@@ -14,6 +14,7 @@ import DevDiaries from '../../public/images/projects/devdiaries.png'
 import ProjectModal from '@/components/ProjectModal'
 
 
+
 const FramerImage = motion(Image)
 
 const FeaturedProject = ({type, title, summary, img, link, github}) =>{
@@ -173,10 +174,10 @@ return (
                         <div className='col-span-6'>
                             <Project 
                             title='DevDiaries'
-                            type='To be deployed soon'
+                            type='MERN Project'
                             summary='A full-featured MERN stack application for developers to share their coding journey, ask questions, and connect with a community of like-minded individuals. Equipped with fully functioning features of a blog app.'
-                            link=''
-                            github=''
+                            link='https://dev-diaries.vercel.app/'
+                            github='https://github.com/JATorres-zxc/DevDiaries'
                             img={DevDiaries}
                             />
                         </div>
