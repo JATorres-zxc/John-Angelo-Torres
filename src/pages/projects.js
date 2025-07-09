@@ -185,7 +185,7 @@ return (
 
                         <div className='col-span-12 '>
                             <FeaturedProject 
-                            title='NexCV'
+                            title='NexCV - WIP'
                             type='Featured Project'
                             summary='An AI-powered resume and CV generator and analyzer that helps users create professional documents and get instant feedback. Uses a free Gemini API key, so results may be limited or unavailable at times due to rate limits.'
                             link='https://nex-cv.vercel.app/generate'
