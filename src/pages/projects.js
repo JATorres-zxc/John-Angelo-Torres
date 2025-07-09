@@ -12,6 +12,7 @@ import GeloDevelops from '../../public/images/projects/gelodevelops.png'
 import SynapseAI from '../../public/images/projects/chatapp1.png'
 import DevDiaries from '../../public/images/projects/devdiaries.png'
 import ProjectModal from '@/components/ProjectModal'
+import NexCV from '../../public/images/projects/nexcv.png'
 
 
 
@@ -182,18 +183,18 @@ return (
                             />
                         </div>
 
-                        {/* <div className='col-span-12 '>
+                        <div className='col-span-12 '>
                             <FeaturedProject 
-                            title='Chatprj'
+                            title='NexCV'
                             type='Featured Project'
-                            summary='Deployed. Created when I tried to learn MERN stack and WebSockets. Equipped with fully functioning features of commong chat app.'
-                            link='https://mern-socket-io.onrender.com'
-                            github='https://github.com/JATorres-zxc/MERN-Socket.io'
-                            img={project1}
+                            summary='An AI-powered resume and CV generator and analyzer that helps users create professional documents and get instant feedback. Uses a free Gemini API key, so results may be limited or unavailable at times due to rate limits.'
+                            link='https://nex-cv.vercel.app/generate'
+                            github='https://github.com/JATorres-zxc/NexCV'
+                            img={NexCV}
                             />
                         </div>
 
-                        <div className='col-span-6'>
+                        {/* <div className='col-span-6'>
                             <Project 
                             title='Chatprj'
                             type='Basic Project'
