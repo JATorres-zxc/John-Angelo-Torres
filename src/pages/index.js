@@ -40,7 +40,7 @@ export default function Home() {
 Explore my latest projects, showcasing my expertise in web development.
                         </p>
                         <div className='flex items-center self-start mt-2 lg:self-center'>
-                            <Link href='/Torres Resume.pdf' target='_blank'
+                            <Link href='/JohnAngeloTorres-Resume.pdf' target='_blank'
                             className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold border-2 border-solid border-transparent
                             hover:bg-light hover:text-dark hover:border-dark dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:border-light dark:hover:text-light
                             md:p-2 md:px-4 md:text-base
