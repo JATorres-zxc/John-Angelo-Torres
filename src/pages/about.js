@@ -58,10 +58,10 @@ return (
 
                         
                         <p className='font-medium mb-2'>
-                            I&apos;m a third-year Computer Science student at University of the Philippines - Cebu, eager to explore the world of web development. Excited to apply what I&apos;ve learned in class to real projects, I&apos;m keen to contribute to innovative solutions and learn from experienced professionals. I&apos;m driven by a strong desire to grow and make a meaningful impact in the dynamic field of web development.
+                            I&apos;m a fourth-year Computer Science student at University of the Philippines - Cebu, eager to explore the world of web development. Excited to apply what I&apos;ve learned in class to real projects, I&apos;m keen to contribute to innovative solutions and learn from experienced professionals. I&apos;m driven by a strong desire to grow and make a meaningful impact in the dynamic field of web development.
                         </p>
                         <p className='font-medium mt-2'>
-                        Here I am, eagerly seeking an internship opportunity to delve deeper into the world of development alongside seasoned professionals. My journey into the realm of programming may have started later than some, but my enthusiasm and dedication to learning are boundless. I&apos;m excited at the prospect of immersing myself in the dynamic environment of web development and absorbing insights from experienced individuals. Any opportunity to expand my knowledge and skills in this field is one I eagerly embrace.                        </p>
+                        Here I am, eagerly seeking an opportunity to delve deeper into the world of development alongside seasoned professionals. My journey into the realm of programming may have started later than some, but my enthusiasm and dedication to learning are boundless. I&apos;m excited at the prospect of immersing myself in the dynamic environment of web development and absorbing insights from experienced individuals. Any opportunity to expand my knowledge and skills in this field is one I eagerly embrace.                        </p>
 
                     </div>
 
