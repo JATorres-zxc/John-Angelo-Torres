@@ -13,6 +13,7 @@ import SynapseAI from '../../public/images/projects/chatapp1.png'
 import DevDiaries from '../../public/images/projects/devdiaries.png'
 import ProjectModal from '@/components/ProjectModal'
 import NexCV from '../../public/images/projects/nexcv.png'
+import SakayHUB from '../../public/images/projects/sakayhub.png'
 
 
 
@@ -47,9 +48,9 @@ const FeaturedProject = ({type, title, summary, img, link, github}) =>{
                 lg:w-full xs:text-base
                 '>{type}</span>
                 
-                <Link href={link} target='_blank' className='hover:underline underline-offset-4 dark:text-light'>
-                    <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-'>{title}</h2>
-                </Link>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light'>
+                    {title}
+                </h2>
                 <p className='my-2 font-medium text-dark dark:text-light'>
                     {summary}
                 </p>
@@ -102,9 +103,9 @@ const Project = ({type, title, summary, img, link, github}) =>{
             <div className='w-full flex flex-col items-start justify-between mt-4'> 
                 <span className='text-primary font font-medium text-xl dark:text-primaryDark'>{type}</span>
                 
-                <Link href={link} target='_blank' className='hover:underline underline-offset-4 dark:text-light'>
-                    <h2 className='my-2 w-full text-left text-3xl font-bold dark:text-light'>{title}</h2>
-                </Link>
+                <h2 className='my-2 w-full text-left text-3xl font-bold dark:text-light'>
+                    {title}
+                </h2>
                 <p className='my-2 font-medium text-dark dark:text-light'>
                     {summary}
                 </p>
@@ -152,8 +153,30 @@ return (
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12 '>
                             <FeaturedProject 
+                                title='SakayHUB - Admin Dashboard'
+                                type='Startup Project (FUNDED)'
+                                summary='This is a group startup project aimed at developing a ride-hailing and delivery mobile app tailored for rural areas here in PH, addressing the lack of accessible ride-hailing services in these regions. The current focus is on the admin dashboard, which serves as the central management hub for the main app.'
+                                link='https://sakayhub.vercel.app/'
+                                github='https://github.com/JATorres-zxc/sakayHUB_WEB'
+                                img={SakayHUB}
+                            />
+                        </div>
+
+                        <div className='col-span-6'>
+                            <Project 
+                            title='DevDiaries'
+                            type='MERN Project'
+                            summary='A full-featured MERN stack application for developers to share their coding journey, ask questions, and connect with a community of like-minded individuals. Equipped with fully functioning features of a blog app.'
+                            link='https://dev-diaries.vercel.app/'
+                            github='https://github.com/JATorres-zxc/DevDiaries'
+                            img={DevDiaries}
+                            />
+                        </div>
+
+                        <div className='col-span-6'>
+                            <Project 
                             title='Freelance Website'
-                            type='Featured Project'
+                            type='React Project'
                             summary='My personal freelance website where potential clients can view my past projects and get in touch to hire me for custom website development. Showcases a range of work including full-stack applications and responsive designs.'
                             link='https://gelo-develops.vercel.app/'
                             github='https://github.com/JATorres-zxc/GeloDevelops'
@@ -172,21 +195,10 @@ return (
                             />
                         </div>
 
-                        <div className='col-span-6'>
+                        <div className='col-span-6 '>
                             <Project 
-                            title='DevDiaries'
-                            type='MERN Project'
-                            summary='A full-featured MERN stack application for developers to share their coding journey, ask questions, and connect with a community of like-minded individuals. Equipped with fully functioning features of a blog app.'
-                            link='https://dev-diaries.vercel.app/'
-                            github='https://github.com/JATorres-zxc/DevDiaries'
-                            img={DevDiaries}
-                            />
-                        </div>
-
-                        <div className='col-span-12 '>
-                            <FeaturedProject 
                             title='NexCV - WIP'
-                            type='Featured Project'
+                            type='Django + VueJS Project (PAUSED)'
                             summary='An AI-powered resume and CV generator and analyzer that helps users create professional documents and get instant feedback. Uses a free Gemini API key, so results may be limited or unavailable at times due to rate limits.'
                             link='https://nex-cv.vercel.app/generate'
                             github='https://github.com/JATorres-zxc/NexCV'

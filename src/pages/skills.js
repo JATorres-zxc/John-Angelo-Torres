@@ -59,17 +59,17 @@ const skills = () => {
 
                         <Skill name='React' x='0vw' y='12vw' />
 
-                        <Skill name='NextJs' x='-20vw' y='-15vw' />
+                        <Skill name='NodeJS' x='-20vw' y='-15vw' />
 
-                        <Skill name='ExpressJs' x='15vw' y='-12vw' />
+                        <Skill name='CI/CD' x='15vw' y='-12vw' />
 
                         <Skill name='Github' x='32vw' y='-5vw' />
 
                         <Skill name='Postman' x='0vw' y='-20vw' />
 
-                        <Skill name='MongoDb' x='-25vw' y='18vw' />
+                        <Skill name='MongoDB' x='-25vw' y='18vw' />
 
-                        <Skill name='MySql' x='18vw' y='18vw' />
+                        <Skill name='PostgreSQL' x='18vw' y='18vw' />
 
                         <Skill name='Python' x='-32vw' y='-5vw' />
                     </div>
